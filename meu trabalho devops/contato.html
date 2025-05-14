@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="valorinss.js"></script>
+	<style>
+		#menu ul{
+								padding:0px;
+								marging:0px;
+								background-color:#5784f7;
+								list-style:none;
+								border-radius:px;
+								
+								
+							}
+							*{
+							margin:0;
+							padding:0;
+							}
+								#menu ul li{
+									display:inline;
+								}
+									#menu ul li a{
+											padding:20px;
+											display:inline-block;
+											background-color:#5784f7;
+											color:white;
+											text-decoration:none;
+											border:0px solid #5784f7;
+											border-radius:0px;
+											
+									}
+									
+										#menu ul li a:hover{
+											background-color:darkblue;
+											color:white;
+											border-color:#3065ab;
+										}
+										
+	</style>
+	<title>contato</title>
+</head>
+<body>
+<nav id="menu">
+					<ul>
+						<li><a href="index.html"> Menu </a> </li>
+						<li><a href="contato.html"> Contato </a> </li>
+						<li><a href="servicos.html"> Servicos </a> </li>
+						<li><a href="./sobre.html"> Sobre Mim </a> </li>						
+					</ul>
+		</nav>
+		<div class="field">
+					
+						<div class="legen">
+						CALCULAR IMPOSTO
+							<p class="Calcular Imposto"></p>
+						</div>	
+									<div class="qqhoras">
+									<label for="qhoras"/>	
+									
+								Horas Trabalhadas:
+									
+									<input type="number" id="qhoras" placeholder="Horas Trabalhadas" ;>
+								
+									
+									</label>
+								</div>
+						</br> 
+										<div class="vvhoras">										
+											<label for="vhoras"/>
+									
+												Valor por Hora:
+											
+												<input type="number" id="vhoras" placeholder="Valor por Hora" size="20"/>
+										
+											</label>
+									</div>	
+						</br> 
+											<div class="nndepen">
+												<label for="ndepen"/>
+												
+													Quantidade de dependentes:
+																			
+													<input type="number" id="ndepen" placeholder="Número de dependentes" size="10"/>
+														
+												</label>
+									</div>
+						</br> <br/>
+						
+									<div class="btns"/>
+									
+											<button type="button" class="efeito efeito1" onclick="calcularsb();"/> 
+											
+												Calcular Salário Líquido
+										
+											</button>
+								</div>
+						</br> </br>
+									
+							
+									
+									
+					
+											<div class="span"/>
+											<span id="sb"/ >
+												
+												<label size="10" />
+											
+													Valor do salário bruto: 
+												
+												</label>
+											</span>
+								</div>	
+									
+																		
+											<div class="span"/>
+											<span id="vinss"/ >
+												
+												<label size="10" />
+											
+													Valor do INSS:
+												
+												</label>
+											</span>
+								</div>
+								
+		
+											<div class="span">
+											<span id="ir"/ >
+												
+												<label size="10" />
+											
+													Valor do imposto de renda: 
+												
+												</label>
+											</span>
+								</div>	
+									
+								
+											<div class="span">
+											<span id="salaril"/ >
+												
+												<label size="10" />
+											
+													Salário líquido:
+												
+												</label>
+											</span>
+								</div>
+								<br/>
+											
+										
+									
+								
+							
+						</div>
+</body>
+</html>
